@@ -17,7 +17,7 @@ end
 #pop_with_args([1,2,3],2)
 
 def using_shift(array)
-  array.shift
+  array.shift(2)
 end
 
 def shift_with_args(array,number)
